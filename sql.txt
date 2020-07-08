@@ -1,0 +1,13 @@
+CREATE TABLE tdojo_associate_courses (
+	Courses varchar ( 255 ),
+  	Description varchar ( 255 ),
+  	PRIMARY KEY (Courses)
+);
+INSERT INTO tdojo_associate_courses (Courses, Description)
+VALUES ('AWS Certified SysOps Administrator Associate', 'Designed to prepare systems administrators who creates and repeatably deploys applications on AWS');
+
+INSERT INTO tdojo_associate_courses (Courses, Description)
+VALUES ('AWS Certified Developer Associate', 'Designed to prepare those in Devops who develop and deploy applications on AWS');
+
+INSERT INTO tdojo_associate_courses (Courses, Description)
+VALUES ('AWS Certified Solutions Architect Associate', 'Designed to prepare those in solutions architect role who design architectures on AWS');
